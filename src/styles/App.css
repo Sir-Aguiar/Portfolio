@@ -3,4 +3,11 @@
 @tailwind utilities;
 
 .main-container {
+  @apply h-full w-full bg-red-400 mt-[60px];
+}
+.group-section #home {
+  @apply h-[calc(100vh-60px)];
+}
+.group-section {
+  @apply h-screen;
 }

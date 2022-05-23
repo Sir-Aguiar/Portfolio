@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-container {
+  @apply min-h-[60px] h-[60px] w-full bg-black fixed top-0 left-0 flex p-1 items-center justify-around;
+}
+
+.filler {
+  @apply w-full h-full;
+}
