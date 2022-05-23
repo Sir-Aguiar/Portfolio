@@ -7,7 +7,8 @@ module.exports = {
     extend: {
 
       colors: {
-
+        "header": "#091228f5",
+        "default": "#091228"
       },
       fontFamily: {
         "Plex-Sans": ['IBM Plex Sans', "sans-serif"],

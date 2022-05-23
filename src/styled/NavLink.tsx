@@ -4,7 +4,9 @@ import styled from "styled-components";
 export const NavLink = styled.a`
   transition: 0.2s;
   filter: brightness(0.9);
-  
+  :hover {
+    filter: brightness(1.2);
+  }
   ::after {
     position: absolute;
     top: 105%;

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .main-container {
-  @apply h-full w-full bg-red-400 mt-[60px];
+  @apply min-h-full w-full bg-default absolute left-0 top-[60px];
 }
 .group-section #home {
   @apply h-[calc(100vh-60px)];
