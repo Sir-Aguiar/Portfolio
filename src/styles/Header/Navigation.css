@@ -2,7 +2,7 @@
   @apply flex flex-col text-white  w-full h-full absolute top-[60px] left-0 min-h-screen min-w-[100vw] bg-gray-600 translate-x-[1050px] transition-all duration-500;
 }
 .navigation-links.active {
-  @apply translate-x-[0]
+  @apply translate-x-[0];
 }
 .navigation-links li {
   @apply w-full  text-center my-8 text-xl font-Plex-Sans;
@@ -17,3 +17,4 @@
 .hamburger div {
   @apply w-[32px] h-[2px] bg-white my-1;
 }
+

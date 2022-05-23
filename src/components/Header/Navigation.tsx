@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "../../styled/NavLink";
 import "../../styles/Header/Navigation.css";
 const Navigation: React.FC = () => {
   const ActivateNavigation = () => {
@@ -12,21 +13,21 @@ const Navigation: React.FC = () => {
         <div className="line2"></div>
         <div className="line3"></div>
       </div>
-      <ul className="navigation-links">
+      <ul className="navigation-links" onClick={ActivateNavigation}>
         <li>
-          <a href="#home">Início</a>
+          <NavLink href="#home">Início</NavLink>
         </li>
         <li>
-          <a href="#about">Sobre mim</a>
+          <NavLink href="#about">Sobre mim</NavLink>
         </li>
         <li>
-          <a href="#knowledges">Conhecimentos</a>
+          <NavLink href="#knowledges">Conhecimentos</NavLink>
         </li>
         <li>
-          <a href="#projects">Projetos</a>
+          <NavLink href="#projects">Projetos</NavLink>
         </li>
         <li>
-          <a href="#contact">Contato</a>
+          <NavLink href="#contact">Contato</NavLink>
         </li>
       </ul>
     </nav>
