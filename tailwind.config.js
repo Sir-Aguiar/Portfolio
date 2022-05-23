@@ -2,7 +2,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{html,ts,tsx}"],
   theme: {
     screens: {
-
+      "desktop": { "min-width": "1024px" }
     },
     extend: {
 

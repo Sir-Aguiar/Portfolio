@@ -4,7 +4,9 @@ import "../../styles/Header/Navigation.css";
 const Navigation: React.FC = () => {
   const ActivateNavigation = () => {
     const navigationLinks = document.querySelector(".navigation-links") as HTMLUListElement;
+    const hamburger = document.querySelector(".hamburger") as HTMLDivElement;
     navigationLinks.classList.toggle("active");
+    hamburger.classList.toggle("active");
   };
   return (
     <nav className="navigation">

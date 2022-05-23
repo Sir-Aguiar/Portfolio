@@ -1,20 +1,28 @@
 .navigation-links {
-  @apply flex flex-col text-white  w-full h-full absolute top-[60px] left-0 min-h-screen min-w-[100vw] bg-gray-600 translate-x-[1050px] transition-all duration-500;
+  @apply flex flex-col text-white   absolute top-[60px] left-0 min-h-screen min-w-[100vw] bg-gray-600 translate-x-[1850px] transition-all duration-500 desktop:bg-transparent desktop:translate-x-0 desktop:flex-row desktop:static desktop:min-w-full desktop:min-h-full desktop:items-center desktop:justify-around desktop:my-0;
 }
 .navigation-links.active {
   @apply translate-x-[0];
 }
 .navigation-links li {
-  @apply w-full  text-center my-8 text-xl font-Plex-Sans;
+  @apply w-full desktop:text-base text-center my-8 text-xl font-Plex-Sans;
 }
 .navigation {
   @apply w-full h-full flex;
 }
-
 .hamburger {
-  @apply flex flex-col justify-center translate-x-28;
+  @apply flex flex-col justify-center ml-auto mr-4  desktop:hidden ;
 }
-.hamburger div {
-  @apply w-[32px] h-[2px] bg-white my-1;
+.hamburger.active .line1 {
+  @apply -rotate-45 -translate-x-[6px] translate-y-[6px];
+}
+.hamburger.active .line2 {
+  @apply opacity-0;
+}
+.hamburger.active .line3 {
+  @apply rotate-45 -translate-x-[4px] -translate-y-[14px];
 }
 
+.hamburger div {
+  @apply w-[32px] h-[2px] bg-white my-1 transition-all duration-500;
+}
