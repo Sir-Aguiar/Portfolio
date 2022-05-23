@@ -1,5 +1,5 @@
 module.exports = {
-  content: [],
+  content: ["./index.html", "./src/**/*.{html,ts,tsx}"],
   theme: {
     screens: {
 
@@ -16,7 +16,7 @@ module.exports = {
 
       },
       backgroundImages: {
-        
+
       }
 
     },
