@@ -14,7 +14,9 @@ const Home: React.FC = () => {
           <button>Descubra sobre mim</button>
         </a>
       </div>
-      <div className="ilustration"></div>
+      <div className="ilustration">
+        <img src="./developing-site.png"/>
+      </div>
     </div>
   );
 };

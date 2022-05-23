@@ -2,6 +2,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{html,ts,tsx}"],
   theme: {
     screens: {
+      "md": { "min-width": "500px","max-width": "1023px" },
       "desktop": { "min-width": "1024px" }
     },
     extend: {
@@ -16,9 +17,6 @@ module.exports = {
         "Roboto": ['Roboto', "sans-serif"]
       },
       borderRadius: {
-
-      },
-      backgroundImages: {
 
       },
       boxShadow: {

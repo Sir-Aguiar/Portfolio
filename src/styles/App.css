@@ -5,9 +5,7 @@
 .main-container {
   @apply min-h-full w-full bg-default absolute left-0 top-[60px];
 }
-.group-section #home {
-  @apply h-[calc(100vh-60px)];
-}
+
 .group-section {
-  @apply h-screen;
+  @apply min-h-full h-screen max-h-[calc(100%-60px)];
 }

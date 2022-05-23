@@ -8,3 +8,7 @@ html,
   @apply h-full w-full;
 }
 
+html {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
