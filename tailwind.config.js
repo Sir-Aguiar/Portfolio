@@ -20,8 +20,10 @@ module.exports = {
       },
       backgroundImages: {
 
+      },
+      boxShadow: {
+        "welcome-button": "6px 6px .5px #2d35a5, -6px -6px .5px #2d35a5"
       }
-
     },
   },
   plugins: [],

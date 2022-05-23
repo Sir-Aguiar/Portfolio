@@ -1,0 +1,38 @@
+.home-page {
+  @apply w-full h-full overflow-hidden flex flex-col desktop:flex-row;
+}
+.welcome {
+  @apply font-Plex-Sans flex flex-col items-center justify-center desktop:items-start h-full w-full;
+}
+.ilustration {
+  @apply h-full w-full;
+}
+.welcome h1 {
+  @apply text-[40px] text-center desktop:text-left my-3 text-slate-100 desktop:mx-3;
+}
+.welcome h2 {
+  @apply text-slate-100 border-r-slate-100 border-r-2 text-2xl text-center whitespace-nowrap overflow-x-hidden mr-1 desktop:mx-3;
+}
+.welcome h2 {
+  animation: blink 0.6s steps(35) infinite normal, typing 4s steps(35) 1 normal;
+}
+.welcome button {
+  @apply my-4 bg-indigo-600 py-4 px-3 mx-3 w-72 text-[1.5em] text-gray-900 cursor-default font-extralight font-Roboto hover:shadow-none shadow-welcome-button transition-all duration-200;
+}
+
+@keyframes blink {
+  from {
+    border-right-color: rgb(255, 255, 255, 0.85);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 11.7em;
+  }
+}
