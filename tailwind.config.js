@@ -10,7 +10,9 @@ module.exports = {
 
       },
       fontFamily: {
-
+        "Plex-Sans": ['IBM Plex Sans', "sans-serif"],
+        "Poppins": ['Poppins', "sans-serif"],
+        "Roboto": ['Roboto', "sans-serif"]
       },
       borderRadius: {
 
