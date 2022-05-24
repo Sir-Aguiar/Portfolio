@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Knowledges from "./pages/Knowledges";
 
@@ -17,7 +18,9 @@ const App: React.FC = () => {
         <Knowledges />
       </section>
       <section id="projects" className="group-section"></section>
-      <section id="contact" className="group-section"></section>
+      <section id="contact" className="group-section">
+        <Contact />
+      </section>
     </div>
   );
 };
