@@ -7,5 +7,5 @@
 }
 
 .group-section {
-  @apply min-h-full h-screen max-h-[calc(100%-60px)];
+  @apply min-h-[750px] h-screen max-h-[calc(100%-60px)];
 }

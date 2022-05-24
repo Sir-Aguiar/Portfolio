@@ -1,5 +1,5 @@
 .home-page {
-  @apply w-full h-full overflow-hidden flex flex-col desktop:flex-row;
+  @apply min-h-[750px] w-full h-full overflow-hidden flex flex-col desktop:flex-row;
 }
 .welcome {
   @apply font-Plex-Sans flex flex-col items-center justify-center desktop:items-start h-full w-full desktop:px-10;

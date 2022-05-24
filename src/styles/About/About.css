@@ -1,0 +1,28 @@
+#about {
+  @apply min-h-[900px] desktop:min-h-[800px]
+}
+.about-section {
+  @apply w-full h-full overflow-hidden flex flex-col desktop:flex-row;
+}
+.about-me {
+  @apply flex-1 max-h-[70%] md:max-h-[60%] flex flex-col 
+  text-slate-300;
+}
+.about-ilustration {
+  @apply flex-1 p-1 max-h-[30%] md:max-h-[40%] desktop:max-h-full flex justify-center items-start;
+}
+.about-cards {
+   @apply overflow-hidden overflow-y-auto min-h-[500px] my-2 flex flex-col items-center justify-center md:px-[5%] p-2
+}
+.about-me h1 {
+  @apply text-xl md:text-2xl desktop:text-3xl text-center my-2;
+}
+.about-me p {
+  @apply text-base p-2 font-Poppins;
+}
+.about-card {
+  @apply border-2 my-4 md:my-3 border-default rounded-sm mx-2 shadow-md shadow-purple-500 max-w-[400px]
+}
+.about-ilustration img {
+  @apply relative md:mx-auto max-w-xs md:max-w-sm desktop:max-w-xl;
+}
