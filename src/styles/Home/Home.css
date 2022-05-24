@@ -11,7 +11,7 @@
   @apply relative desktop:top-1/2 desktop:-translate-y-1/2 md:mx-auto md:max-w-md desktop:max-w-xl;
 }
 .welcome h1 {
-  @apply text-[40px] text-center desktop:text-left my-3 text-slate-100;
+  @apply text-[40px] desktop:text-[50px] text-center desktop:text-left my-3 text-slate-100;
 }
 .welcome h2 {
   @apply text-slate-100 border-r-slate-100 border-r-2 text-2xl text-center whitespace-nowrap overflow-x-hidden mr-1;

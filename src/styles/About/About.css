@@ -21,7 +21,7 @@
   @apply text-base p-2 font-Poppins;
 }
 .about-card {
-  @apply border-2 my-4 md:my-3 border-default rounded-sm mx-2 shadow-md shadow-purple-500 max-w-[400px]
+  @apply border-2 my-4 md:my-3 border-slate-400 border-opacity-60 rounded-sm mx-2 shadow-about-card max-w-[400px]
 }
 .about-ilustration img {
   @apply relative md:mx-auto max-w-xs md:max-w-sm desktop:max-w-xl;

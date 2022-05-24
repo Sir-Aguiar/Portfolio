@@ -1,5 +1,5 @@
 .navigation-links {
-  @apply flex flex-col text-white   absolute top-[60px] left-0 min-h-screen min-w-[100vw] bg-gray-600 translate-x-[1850px] transition-all duration-500 desktop:bg-transparent desktop:translate-x-0 desktop:flex-row desktop:static desktop:min-w-full desktop:min-h-full desktop:items-center desktop:justify-around desktop:my-0;
+  @apply flex flex-col text-white   absolute top-[60px] left-0 min-h-screen min-w-[100vw] bg-header translate-x-[1850px] transition-all duration-500 desktop:bg-transparent desktop:translate-x-0 desktop:flex-row desktop:static desktop:min-w-full desktop:min-h-full desktop:items-center desktop:justify-around desktop:my-0;
 }
 .navigation-links.active {
   @apply translate-x-[0];
