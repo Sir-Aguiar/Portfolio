@@ -16,7 +16,7 @@ const About: React.FC = () => {
             </p>
           </div>
           <div className="about-card">
-            <p>Busco inovar e aprender coisas novas, massem sair da linha de especialização</p>
+            <p>Busco inovar e aprender coisas novas, sem sair da linha de especialização</p>
           </div>
           <div className="about-card">
             <p>Acredito que a tecnologia é a chave para o futuro brilhante que a humanidade sempre almejou</p>
