@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Knowledges from "./pages/Knowledges";
 
 import "./styles/App.css";
 const App: React.FC = () => {
@@ -12,7 +13,9 @@ const App: React.FC = () => {
       <section id="about" className="group-section">
         <About />
       </section>
-      <section id="knowledges" className="group-section"></section>
+      <section id="knowledges" className="group-section">
+        <Knowledges />
+      </section>
       <section id="projects" className="group-section"></section>
       <section id="contact" className="group-section"></section>
     </div>

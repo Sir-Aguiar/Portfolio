@@ -1,0 +1,6 @@
+#knowledges {
+  @apply min-h-[850px]
+}
+.knowledges-section {
+  @apply bg-red-300 h-full w-full
+}
