@@ -9,7 +9,7 @@ export const Box = styled.div`
   align-items: center;
   justify-content: space-around;
   padding: 6px;
-  background-color: #091228;
+  background-color: #0c225a;
   color: #9333ea;
   font-size: 18px;
   width: 100%;

@@ -1,14 +1,23 @@
 #knowledges {
-  @apply min-h-[850px];
+  @apply min-h-[700px];
 }
 .knowledges-section {
-  @apply bg-red-300 h-full w-full flex flex-col desktop:flex-row;
+  @apply h-full w-full flex flex-col desktop:flex-row;
 }
 .know-boxes {
   @apply gap-1 p-1 flex-1 grid items-center justify-center overflow-hidden;
 }
 .know-description {
   @apply flex-1;
+}
+.description-box {
+  @apply flex flex-col items-center text-slate-200
+}
+.description-box h1 {
+  @apply text-2xl
+}
+.description-box p {
+  @apply text-lg p-2
 }
 .know-boxes {
   grid-template-columns: minmax(90px, 130px) minmax(90px, 130px) minmax(90px, 130px);

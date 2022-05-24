@@ -3,47 +3,47 @@
     {
       "name": "TypeScript",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      "description": ""
+      "description": "Uma linguagem de alto nível, que acrescenta uma camada de segurança no famoso 'JavaScript'. Usado para diversos propósitos, como: gerenciamento de servidores, interface gráfica, análise de dados, etc... " 
     },
     {
       "name": "NodeJS",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      "description": ""
+      "description": "Um software capaz de executar código JavaScript fora de um ambiente de navegador, normalmente um servidor."
     },
     {
       "name": "Express",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-      "description": ""
+      "description": "Um framework Node para desenvolvimento e gerenciamento de servidores"
     },
     {
       "name": "Firebase",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      "description": ""
+      "description": "Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Possui funções como: Machine Learning, banco de dados, hospedagem, etc..."
     },
     {
       "name": "MongoDB",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
-      "description": ""
+      "description": "Um banco de dados não relacional, o mais popular e prático de sua categoria. usado por diversas empresas de grande porte como: Globo, Linkedin, Amazon, The New York Times, etc..."
     },
     {
       "name": "HTML",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      "description": ""
+      "description": "Uma linguagem hipertexto de estruturação para sites e páginas web, fornece uma base sólida e robusta à estrutura da interface."
     },
     {
       "name": "CSS",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      "description": ""
+      "description": "Uma linguagem de estilos, que estiliza a sua vontade qualquer página web"
     },
     {
       "name": "Tailwind",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-      "description": ""
+      "description": "Um framework CSS que facilita na responsividade e estilização"
     },
     {
       "name": "ReactJS",
       "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "description": ""
+      "description": "Uma biblioteca de código aberta, mantida pelo Facebook  que permite mesclar JavaScript/TypeScript junto de estruturas como HTML e o próprio CSS, dando ao site um poder imenso!"
     }
   ]
 }
