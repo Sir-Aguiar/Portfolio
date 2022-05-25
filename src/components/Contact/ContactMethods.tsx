@@ -1,6 +1,7 @@
 import React from "react";
 import * as io from "react-icons/io";
 import "../../styles/Contact/Contact.css";
+import { MdEmail } from "react-icons/md";
 const ContactMethods: React.FC = () => {
   return (
     <div className="contacts">
@@ -24,7 +25,7 @@ const ContactMethods: React.FC = () => {
       </div>
       <div className="method">
         <div className="logos">
-          <io.IoMdHeartDislike />
+          <MdEmail />
           <div>Email</div>
         </div>
         <div className="flex-1">
