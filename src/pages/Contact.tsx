@@ -4,8 +4,8 @@ import "../styles/Contact/Contact.css";
 const Contact: React.FC = () => {
   return (
     <div className="contact-section">
-      <h1>Vamos conversar sobre seu projeto!</h1>
-      <h2>Coloque aquela ideia em prática!</h2>
+      <h1>Vamos conversar!</h1>
+      <h2>Coloque aquela ideia em prática</h2>
       <ContactMethods />
     </div>
   );

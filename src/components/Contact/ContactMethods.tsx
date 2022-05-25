@@ -7,34 +7,38 @@ const ContactMethods: React.FC = () => {
       <div className="method">
         <div className="logos">
           <io.IoLogoWhatsapp />
-          <span>WhatsApp</span>
+          <div>WhatsApp</div>
         </div>
-        <span>(65) 99239-1561</span>
+        <div className="flex-1">(65) 99239-1561</div>
       </div>
       <div className="method">
         <div className="logos">
           <io.IoLogoLinkedin />
-          <span>Linkedin</span>
+          <div>Linkedin</div>
         </div>
-        <a href="https://www.linkedin.com/in/felipe-aguiar-497651201/" target="_blank">
-          Clique aqui
-        </a>
+        <div className="flex-1">
+          <a href="https://www.linkedin.com/in/felipe-aguiar-497651201/" target="_blank">
+            Clique aqui
+          </a>
+        </div>
       </div>
       <div className="method">
         <div className="logos">
           <io.IoMdHeartDislike />
-          <span>Email</span>
+          <div>Email</div>
         </div>
-        <a href="mailto:felipeferreiraaguiar9@gmail.com" target="_blank" referrerPolicy="no-referrer">
-          felipeferreiraaguiar9@gmail.com (ou clique aqui)
-        </a>
+        <div className="flex-1">
+          <a href="mailto:felipeferreiraaguiar9@gmail.com" target="_blank" referrerPolicy="no-referrer">
+            Clique aqui
+          </a>
+        </div>
       </div>
       <div className="method">
         <div className="logos">
           <io.IoLogoGithub />
-          <span>Github</span>
+          <div>Github</div>
         </div>
-        <span>Sir Aguiar (ou clique no ícone)</span>
+        <div className="flex-1">Sir Aguiar </div>
       </div>
     </div>
   );

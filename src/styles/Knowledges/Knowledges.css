@@ -17,7 +17,7 @@
   @apply text-2xl
 }
 .description-box p {
-  @apply text-lg p-2
+  @apply text-lg p-2 font-Plex-Sans
 }
 .know-boxes {
   grid-template-columns: minmax(90px, 130px) minmax(90px, 130px) minmax(90px, 130px);
