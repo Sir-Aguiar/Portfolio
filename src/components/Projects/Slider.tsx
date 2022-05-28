@@ -11,8 +11,8 @@ const ProjectsSlider: React.FC = () => {
     axios.get("https://projects-api-123.herokuapp.com/").then((res) => {
       if (res.status === 200) {
         setProjects(res.data.projects);
+        setCarouselScroll(((carousel.current?.scrollWidth || 0) - (carousel.current?.offsetWidth || 0) + 20) * -1);
       }
-      setCarouselScroll(((carousel.current?.scrollWidth || 0) - (carousel.current?.offsetWidth || 0) + 20) * -1);
     });
     
   }, []);
