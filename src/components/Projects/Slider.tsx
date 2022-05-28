@@ -4,43 +4,7 @@ import axios from "axios";
 import "../../styles/Projects/Projects.css";
 const ProjectsSlider: React.FC = () => {
   const [carouselScroll, setCarouselScroll] = useState<number>();
-  const [projects, setProjects] = useState<Project[]>([
-    {
-      name: "PROJETO 1",
-      description: "Aqui vai qualquer coisa, só para encher espaço e testar",
-      link: "#",
-      picture:
-        "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    },
-    {
-      name: "PROJETO 2",
-      description: "Aqui vai qualquer coisa, só para encher espaço e testar",
-      link: "#",
-      picture:
-        "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    },
-    {
-      name: "PROJETO 3",
-      description: "Aqui vai qualquer coisa, só para encher espaço e testar",
-      link: "#",
-      picture:
-        "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    },
-    {
-      name: "PROJETO 4",
-      description: "Aqui vai qualquer coisa, só para encher espaço e testar",
-      link: "#",
-      picture:
-        "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    },
-    {
-      name: "PROJETO 5",
-      description: "Aqui vai qualquer coisa, só para encher espaço e testar",
-      link: "#",
-      picture:
-        "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    },
-  ]);
+  const [projects, setProjects] = useState<Project[]>([]);
 
   const carousel = useRef<HTMLDivElement>(null);
   useEffect(() => {
