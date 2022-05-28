@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Knowledges from "./pages/Knowledges";
+import Projects from "./pages/Projects";
 
 import "./styles/App.css";
 const App: React.FC = () => {
@@ -17,7 +18,9 @@ const App: React.FC = () => {
       <section id="knowledges" className="group-section">
         <Knowledges />
       </section>
-      <section id="projects" className="group-section"></section>
+      <section id="projects" className="group-section">
+        <Projects />
+      </section>
       <section id="contact" className="group-section">
         <Contact />
       </section>

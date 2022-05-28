@@ -21,7 +21,8 @@ module.exports = {
       },
       boxShadow: {
         "welcome-button": "6px 6px .5px #2d35a5, -6px -6px .5px #2d35a5",
-        "about-card": "2px 2px 3px #a855f7, -2px -2.4px 2px #a855f7"
+        "about-card": "2px 2px 3px #a855f7, -2px -2.4px 2px #a855f7",
+        "project-card": "rgb(168, 85, 247,.5) 0px 7px 9px 0px"
       }
     },
   },
