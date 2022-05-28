@@ -12,8 +12,9 @@ const ProjectsSlider: React.FC = () => {
       if (res.status === 200) {
         setProjects(res.data.projects);
       }
+      setCarouselScroll(((carousel.current?.scrollWidth || 0) - (carousel.current?.offsetWidth || 0) + 20) * -1);
     });
-    setCarouselScroll(((carousel.current?.scrollWidth || 0) - (carousel.current?.offsetWidth || 0) + 20) * -1);
+    
   }, []);
 
   return (
