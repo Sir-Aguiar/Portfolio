@@ -38,6 +38,24 @@ const ProjectsSlider: React.FC = () => {
     link: "#",
     picture:
       "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+  },{
+    name: "PROJETO 5",
+    description: "",
+    link: "#",
+    picture:
+      "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+  },{
+    name: "PROJETO 5",
+    description: "",
+    link: "#",
+    picture:
+      "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+  },{
+    name: "PROJETO 5",
+    description: "",
+    link: "#",
+    picture:
+      "https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
   },]);
 
   const carousel = useRef<HTMLDivElement>(null);
